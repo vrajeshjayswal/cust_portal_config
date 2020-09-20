@@ -40,5 +40,5 @@ spring:
             issuer-uri: http://34.70.63.70:8080/auth/realms/master
         registration:
           oidc:
-            client-id: stock_app
-            client-secret: stock_app
+            client-id: web_app
+            client-secret: web_app
