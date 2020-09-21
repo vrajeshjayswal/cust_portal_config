@@ -28,7 +28,7 @@ kafka:
 spring:
   zipkin:
     base-url: http://34.70.63.70:9411
-    enabled: false
+    enabled: true
   sleuth:
     sampler:
       probability: 1 # report 100% of traces to Zipkin
